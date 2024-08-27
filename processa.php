@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<p>Quantidade de caracteres que não são vogais: $quantidade_nao_vogais</p>";
 
     // 4. Criar uma nova frase a partir da letra 'd' e exibir a frase de forma inversa
-    $nova_frase = "d" . substr($frase, 1); // Adiciona a letra 'd' no início da frase
+    $nova_frase = "d" . substr($frase, 1); // Adiciona a letra 'd' no início da frase digitada
     $nova_frase_inversa = strrev($nova_frase);
     echo "<p>Nova frase com 'd' no início e invertida: $nova_frase_inversa</p>";
 } else {
